@@ -1,5 +1,5 @@
 /*
-* module2，使用的是统一暴露
+* module2，使用的是【统一暴露】
 * */
 
 //arr是私有数据，不去暴露
@@ -13,5 +13,7 @@ function test2() {
   console.log('我是module2里的test2函数',arr)
 }
 
-//统一暴露
+//统一暴露(精简版写法)
 export {demo2,test2}
+
+//统一暴露(完整版写法)
