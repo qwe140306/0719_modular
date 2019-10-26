@@ -13,8 +13,6 @@
      console.log(data)
    }
 
-   $
-
   function test2() {
     console.log(data.toUpperCase())
   }
