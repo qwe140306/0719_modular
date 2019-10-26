@@ -4,7 +4,7 @@
 
 define(function (require) {
   let module1 = require('./module1')
-  let module4 = require('./module4.js')
+  let module4 = require('./module4')
   module1.getData()
   module4.getData()
 })
