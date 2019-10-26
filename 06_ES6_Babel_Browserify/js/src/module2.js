@@ -17,3 +17,8 @@ function test2() {
 export {demo2,test2}
 
 //统一暴露(完整版写法)
+/*
+export {
+  demo2 as haha1, //暴露的同时可以，赋一个别名
+  test2 as haha2
+}*/

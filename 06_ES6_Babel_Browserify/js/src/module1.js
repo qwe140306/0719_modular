@@ -1,10 +1,11 @@
 /*
 * module1使用了【分别暴露】的方式
 * */
+
 export let data = 'atguigu'
 
 export function demo1() {
-  console.log('我是module1里的demo函数',data.toUpperCase())
+  console.log(`我是module1里的demo函数`,data.toUpperCase())
 }
 
 export function test1() {
